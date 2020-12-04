@@ -20,4 +20,4 @@ jobs:
         with:
           push: true
           file: "./tools/releasing/packaging/docker/Dockerfile"
-          tags: benjaminrueth/precice:develop,benjaminrueth/precice:latest
+          tags: benjaminrueth/precice:v2.1.1,benjaminrueth/precice:latest
