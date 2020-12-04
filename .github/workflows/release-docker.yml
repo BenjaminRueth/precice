@@ -12,7 +12,7 @@ jobs:
       - name: Login to DockerHub
         uses: docker/login-action@v1
         with:
-          username: precice
+          username: benjaminrueth
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Build and push Dockerfile
         uses: docker/build-push-action@v2
@@ -21,6 +21,6 @@ jobs:
         with:
           push: true
           file: "./tools/releasing/packaging/docker/Dockerfile"
-          tags: precice/precice:${{ env.version }},precice/precice:latest
+          tags: benjaminrueth/precice:${{ env.version }},benjaminrueth/precice:latest
           build-args: |
             version=${{ env.version }}
