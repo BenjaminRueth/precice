@@ -40,7 +40,12 @@ preCICE stands for Precise Code Interaction Coupling Environment. Its main compo
 If you are new to preCICE, please have a look at our [wiki (documentation)](https://github.com/precice/precice/wiki) and at [precice.org](https://www.precice.org). You may also prefer to [get and install a binary package for the latest release](https://github.com/precice/precice/releases/latest) ([master branch](https://github.com/precice/precice/tree/master)).
 
 <div align="center" style="margin-bottom:30px">
-<img src="https://www.precice.org/assets/precice_overview.png" alt="preCICE overview" style="max-height: 100%; max-width: 100%">
+    <picture>
+    <source
+            srcset="https://png2.cleanpng.com/sh/470c6425dd76ce36abd6fd2a7cfd6074/L0KzQYq3VME3N6N8e5H0aYP2gLBuTgBweqVmet5uLX7ohMj2kvsub6NmiNpyY4Owc73wkL1ieqUygd9qZ3WwhrbqlP9zNZh3Red3aXPygrA0gBF1NaV3edD8cHH1dbB7TfFueF51htk2Y3zsgLL5lL1nepZqRdZ4dz24c7O9UPJlOWVoTNUCNj68QYmAWcg4QWI6Tac9M0S3RIq6UcI2NqFzf3==/kisspng-portable-network-graphics-clip-art-image-vector-gr-unicorn-cat-transparent-amp-png-clipart-free-dow-5cb60bd14c4c76.9187987915554344493125.png"
+            media="(prefers-color-scheme: dark)">
+    <img src="https://www.precice.org/material/overview/preCICE_overview.png" alt="preCICE overview" style="max-height: 100%; max-width: 100%">
+    </picture>
 </div>
 
 preCICE is an academic project, developed at the [Technical University of Munich](https://www5.in.tum.de/) and at the [University of Stuttgart](https://www.ipvs.uni-stuttgart.de/). If you use preCICE, please [cite us](https://www.precice.org/publications/):
